@@ -1,17 +1,15 @@
 // backend/index.ts
 import express from "express";
 import cors from "cors";
+import authRoutes from "./routes/authRoutes";
 
 const app = express();
-const PORT = 3001;
-
 app.use(cors());
 app.use(express.json());
+const PORT = 3000;
 
-app.get("/api/health", (req, res) => {
-  res.send({ status: "Backend is up and running!" });
-});
+app.use("/api/auth", authRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Backend listening at http://localhost:${PORT}`);
-});
+app.listen(3000, () =>
+  console.log(`Backend listening at http://localhost:${PORT}`)
+);

@@ -1,0 +1,48 @@
+1) Authentication and Authorization: User login and logout , Different user roles would be admin and employee(with permissions).Password management (reset, change) - User activity logging or history mangement.
+
+2)  Staff Management: Adding, editing, and deleting staff profiles (name, contact information, role). Assigning roles and permissions.
+
+3) Inventory Management: 
+	
+	3.1) Product categories, Adding new products (name, description, category, supplier, purchase price, selling price , discount). Unit-Based Pricing: Supporting different units of measurement (e.g., kg, lb, grams) for products sold by weight.
+	3.2) Updating product information.
+	3.3) Managing stock levels.
+	3.4) Low stock alerts and notifications.
+	3.5) Product categorization and filtering.
+
+4) Point of Sale (POS) System: 
+	4.1) Processing sales transactions.
+	4.2) Applying discounts (item-wise or total bill).
+	4.3) Generating receipts/bills.
+	4.4) Processing returns and refunds.
+	4.5) Sales history tracking.
+	4.6) Daily/periodical sales summaries.
+
+5)  Profit and Loss Reports, Reports (Sales, Stock, Purchases):
+	5.1) Sales reports (daily, weekly, monthly, yearly, product-wise).
+	5.2) Inventory reports (stock levels, low stock, stock valuation).
+	5.3) Purchase reports (supplier-wise, date-wise).
+	5.4) Profit and loss statements.
+	5.5) Customizable report generation (date ranges, filters).
+	5.6) Exporting reports in PDF.
+
+6) Notifications:
+	6.1) Low stock alerts.
+	6.2) Reminders for tasks (if any).
+
+7) Loan Report / Management:
+	7.1) Tracking loans given to customers (means given products or things of the shop on laon to the customer).
+	7.2) Recording loan amounts,  repayment schedules.
+	7.3) Generating loan reports.
+	7.4) update loan payments.
+
+
+8) Customers Data:
+	8.1) Storing customer information (name, contact details, purchase history).
+	
+9) Bill/Invoice Generation, Manage Invoices:
+	9.1) Generating professional invoices.
+	9.2) Customizing invoice templates.
+	9.3) Tracking invoice status (paid, unpaid, overdue).
+
+10) Expense Tracking 

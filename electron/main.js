@@ -11,7 +11,7 @@ const createWindow = () => {
     },
   });
 
-  win.loadURL("http://localhost:3001"); // Next.js dev
+  win.loadURL("http://localhost:3004"); // Next.js dev
 };
 
 app.whenReady().then(() => {
