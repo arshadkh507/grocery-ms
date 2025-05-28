@@ -1,6 +1,6 @@
 import React from "react";
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="flex bg-lime-50 min-h-screen w-full items-center justify-center">
       {children}
@@ -8,4 +8,4 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default Layout;
+export default AuthLayout;
